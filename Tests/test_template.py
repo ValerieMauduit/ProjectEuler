@@ -12,9 +12,8 @@ def test_sets():
     return [
         {
             'number': 1,
-            'input': [],
-            'expected1': [],
-            'expected2': []
+            'input': {},
+            'expected': []
         },
     ]
 
@@ -30,7 +29,7 @@ def test_it_works(test_data, expected):
 def main():
     for test in test_sets():
         print(f"=== Test #{test['number']} ===")
-        test_it_works(test['input'], test['expected1'])
+        test_it_works(test['input'], test['expected'])
 
 
 if __name__ == '__main__':
