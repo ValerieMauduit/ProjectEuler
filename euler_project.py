@@ -2,7 +2,7 @@
 import argparse
 
 from Challenges import (
-    challenge_template
+    challenge001
 )
 
 

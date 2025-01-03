@@ -1,1 +1,4 @@
 .idea/
+Challenges/__pycache__/
+Tests/__pycache__/
+Tooling/__pycache__/
