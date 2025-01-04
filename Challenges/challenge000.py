@@ -14,6 +14,6 @@ def my_func(data):
 
 def run():
     data = 42
-    solution = my_fun(data)
+    solution = my_func(data)
     print(f'The solution is: {solution}')
     return solution
