@@ -5,7 +5,7 @@ current_dir = os.path.dirname(os.path.realpath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
-from Challenges import challenge_template
+from Challenges import challenge000
 
 
 def test_sets():
@@ -19,7 +19,7 @@ def test_sets():
 
 
 def test_it_works(test_data, expected):
-    solution = challenge_template.my_func(test_data)
+    solution = challenge000.my_func(test_data)
     if solution != expected:
         print(f"Your output is: {solution}")
         raise Exception(f'This is not the solution, you should get {expected}')
